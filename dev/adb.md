@@ -25,7 +25,7 @@ tasklist | grep NoxVMHandle.exe
 adb connect 127.0.0.1:{PORT}
 ```
 
-### If ADB gets disconnected periodically, write a .bar file and run in the background:
+### If ADB gets disconnected periodically, write a .bat file and run in the background:
 
 ```bat
 @echo off
